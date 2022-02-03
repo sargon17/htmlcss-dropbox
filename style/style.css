@@ -32,6 +32,29 @@ h1{
 /* reusable component */
 
 
+/* reusable styling */
+.font-size-0{
+    font-size: 0;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+.float-right{
+    float: right;
+}
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+  }
+.center-80{
+    width: 80vw;
+    margin: auto;
+
+}
+
+/* reusable styling */
 
 /* header */
 header{
@@ -69,6 +92,7 @@ nav a:hover{
 }
 .jumbo-text{
     width: 35%;
+    vertical-align: top;
 }
 .jumbo-text p{
     font-weight: 500;
@@ -98,29 +122,6 @@ nav a:hover{
 /* jumbo-tron */
 
 
-/* reusable styling */
-.font-size-0{
-    font-size: 0;
-}
-.inline-block{
-    display: inline-block;
-    vertical-align: middle;
-}
-.float-right{
-    float: right;
-}
-.clearfix::after{
-    content:"";
-    clear: both;
-    display: table;
-  }
-.center-80{
-    width: 80vw;
-    margin: auto;
-
-}
-
-/* reusable styling */
 
 
 /* debug */
