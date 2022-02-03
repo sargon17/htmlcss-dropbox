@@ -1,0 +1,40 @@
+:root{
+    --dropbox-blue: #0061FF;
+    --dropbox-light-blue: #B4D0E7;
+    --dropbox-white: #ffffff;
+    --dropbox-black: #000000;
+    -dropbox-grey: #EBEBEC;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 70px;
+}
+
+
+/* header */
+
+
+
+/* reusable styling */
+.inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+/* reusable styling */
+
+/* debug */
+.debug header{
+    border: 4px dotted red;
+}
