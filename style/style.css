@@ -14,6 +14,10 @@
 h1{
     font-size: 78px;
 }
+h2{
+    font-size: 52px;
+    margin: 0.1em 0 ;
+}
 
 
 
@@ -51,7 +55,10 @@ h1{
 .center-80{
     width: 80vw;
     margin: auto;
-
+}
+.center-70{
+    width: 70vw;
+    margin: auto;
 }
 
 /* reusable styling */
@@ -64,6 +71,7 @@ header{
     width: 100%;
     line-height: 4em;
     background-color: var(--dropbox-white);
+    z-index: 1;
 }
 .logo{
     margin: 0 1em;
@@ -73,7 +81,7 @@ nav{
     width: 85%;
 }
 nav a{
-    padding: 1.4em 0;
+    padding: 1.3em 0;
     margin: 0 1em;
 }
 nav a:hover{
@@ -131,11 +139,22 @@ nav a:hover{
 
 
 
+/* prices plans section */
+.prices-plans{
+    margin: 15vh 0 0 0;
+}
+
+/* prices plans section */
+
+
+
+
+
 /* debug */
 /* .debug .jumbo-tron, */
-/* .debug .jumbo-text, */
-/* .debug .jumbo-img */
-/* {
+.debug .center-70,
+.debug .prices-plans
+{
     border: 4px dotted red;
     min-height: 50em;
-} */
+}
