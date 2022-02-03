@@ -93,6 +93,7 @@ nav a:hover{
 .jumbo-text{
     width: 35%;
     vertical-align: top;
+    margin: 0 0 10vh 0;
 }
 .jumbo-text p{
     font-weight: 500;
@@ -117,6 +118,12 @@ nav a:hover{
 .jumbo-img{
     width: 64%;
     font-size: 16px;
+    position: relative;
+}
+.jumbo-img img{
+    width: 50vw;
+    margin: 3em 0 0 0;
+    position: absolute;
 }
 
 /* jumbo-tron */
@@ -127,7 +134,8 @@ nav a:hover{
 /* debug */
 /* .debug .jumbo-tron, */
 /* .debug .jumbo-text, */
-.debug .jumbo-img{
+/* .debug .jumbo-img */
+/* {
     border: 4px dotted red;
     min-height: 50em;
-}
+} */
