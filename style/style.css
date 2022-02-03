@@ -5,6 +5,7 @@
     --dropbox-white: #ffffff;
     --dropbox-black: #000000;
     --dropbox-grey: #EBEBEC;
+    --dropbox-dark-grey: #adadad;
 }
 
 *{
@@ -17,6 +18,9 @@ h1{
 h2{
     font-size: 52px;
     margin: 0.1em 0 ;
+}
+h3{
+    font-size: 30px;
 }
 
 
@@ -32,6 +36,12 @@ h2{
 .a-btn:hover{
     color: var(--dropbox-white);
     background-color: var(--dropbox-blue-hover);
+}
+.strange-line{
+    height: 1px;
+    width: 20%;
+    background: var(--dropbox-dark-grey);
+    margin: 3vh 0;
 }
 /* reusable component */
 
@@ -56,11 +66,24 @@ h2{
     width: 80vw;
     margin: auto;
 }
+.center-80p{
+    width: 80%;
+    margin: auto;
+}
 .center-70{
     width: 70vw;
     margin: auto;
 }
-
+.grey-borders{
+    border: 1px solid var(--dropbox-grey);
+}
+.grey-border-bottom{
+    border-bottom: 1px solid var(--dropbox-grey);
+}
+.light-text{
+    color: var(--dropbox-dark-grey);
+    font-weight: 500;
+}
 /* reusable styling */
 
 /* header */
@@ -143,7 +166,26 @@ nav a:hover{
 .prices-plans{
     margin: 15vh 0 0 0;
 }
-
+.radio-wrapper{
+    margin: 4vh 0;
+}
+.pricing-tile{
+    width: 30%;
+    height: 90vh;
+}
+.title-prices{
+    margin: 2vh 0;
+}
+.title-prices p{
+    margin: 2vh 0;
+}
+.pricing-tile .btn-wrapper{
+    margin: 3vh 0;
+} 
+.plan-btn{
+    margin: 0;
+    padding: 1em 4em;
+}
 /* prices plans section */
 
 
@@ -151,10 +193,9 @@ nav a:hover{
 
 
 /* debug */
-/* .debug .jumbo-tron, */
 .debug .center-70,
 .debug .prices-plans
 {
-    border: 4px dotted red;
+    border: 3px dashed red;
     min-height: 50em;
 }
