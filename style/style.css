@@ -9,12 +9,27 @@
 
 *{
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 h1{
     font-size: 78px;
 }
 
+
+
+
+/* reusable component */
+.a-btn{
+    background-color: var(--dropbox-blue);
+    color: var(--dropbox-white);
+    padding: .5em 1.5em;
+    margin: 1.5em 1em;
+}
+.a-btn:hover{
+    color: var(--dropbox-white);
+    background-color: var(--dropbox-blue-hover);
+}
+/* reusable component */
 
 
 
@@ -28,16 +43,11 @@ header{
     background-color: var(--dropbox-white);
 }
 .logo{
-    /* line-height: 4em; */
-    /* padding: 1em; */
     margin: 0 1em;
-}
-.logo img{
-    /* margin: 1em; */
 }
 
 nav{
-    width: 87%;
+    width: 85%;
 }
 nav a{
     padding: 1.4em 0;
@@ -58,17 +68,31 @@ nav a:hover{
     margin: 8vh 0 0 0;
 }
 .jumbo-text{
-    width: 40%;
+    width: 35%;
 }
 .jumbo-text p{
-    margin: 3em 0;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5em;
-    width: 70%;
+    width: 80%;
 }
+.jumbo-btn{
+    margin-left: 0;
+    font-size: 20px;
+}
+.jumbo-p{
+    margin: 3em 0;
+}
+.under-btn{
+    margin: 1em 0;
+}
+.jumbo-tron i{
+    font-size: 50px;
+}
+
 .jumbo-img{
-    width: 59%;
+    width: 64%;
+    font-size: 16px;
 }
 
 /* jumbo-tron */
@@ -99,22 +123,9 @@ nav a:hover{
 /* reusable styling */
 
 
-/* reusable component */
-.a-btn{
-    background-color: var(--dropbox-blue);
-    color: var(--dropbox-white);
-    padding: .25em 1em;
-    margin: 1.5em 1em;
-}
-.a-btn:hover{
-    color: var(--dropbox-white);
-    background-color: var(--dropbox-blue-hover);
-}
-/* reusable component */
-
 /* debug */
 /* .debug .jumbo-tron, */
-.debug .jumbo-text,
+/* .debug .jumbo-text, */
 .debug .jumbo-img{
     border: 4px dotted red;
     min-height: 50em;
