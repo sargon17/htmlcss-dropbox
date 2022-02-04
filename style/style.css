@@ -13,10 +13,10 @@
   font-size: 18px;
 }
 h1 {
-  font-size: 78px;
+  font-size: 68px;
 }
 h2 {
-  font-size: 52px;
+  font-size: 36px;
   margin: 0.1em 0;
 }
 h3 {
@@ -109,7 +109,7 @@ header {
 }
 
 nav {
-  width: 85%;
+  width: 78%;
 }
 nav a {
   padding: 1.3em 0;
@@ -132,17 +132,16 @@ nav a:hover {
 .jumbo-text {
   width: 35%;
   vertical-align: top;
-  margin: 0 0 10vh 0;
+  margin: 0 0 5vh 0;
 }
 .jumbo-text p {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5em;
-  width: 80%;
 }
 .jumbo-btn {
   margin-left: 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 .jumbo-p {
   margin: 3em 0;
@@ -155,7 +154,7 @@ nav a:hover {
 }
 
 .jumbo-img {
-  width: 64%;
+  width: 45vw;
   font-size: 16px;
   position: relative;
 }
@@ -175,7 +174,7 @@ nav a:hover {
   margin: 4vh 0;
 }
 .pricing-tile {
-  width: 30%;
+  width: 20vw;
   height: 90vh;
 }
 .personal-team-plan p {
@@ -196,6 +195,9 @@ nav a:hover {
 .plan-btn {
   margin: 0;
   padding: .75em 4em;
+}
+.midle-tile-margin{
+  margin: 0 4.6%;
 }
 /* prices plans section */
 
