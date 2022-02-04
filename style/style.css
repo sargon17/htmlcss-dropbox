@@ -327,8 +327,6 @@ nav a:hover {
 .teams-section h2 {
   width: 65%;
 }
-
-/* / Dropbox for teams - squares */
 .squares-container {
   margin-top: 3vh;
 }
@@ -358,6 +356,27 @@ nav a:hover {
   width: 10vw;
   margin-top: 5%;
 }
+/* / Dropbox for teams - squares */
+
+/* dropbox business banner section */
+.business-banner{
+  background-color: var(--dropbox-light-blue);
+  padding: 10vh 0;
+}
+.business-banner-wrapper h2{
+  width: 59%;
+  color: var(--bordeaux);
+}
+.business-button-wrapper{
+  height: 5em;
+  margin: 1em;
+}
+.business-button-wrapper a{
+  border: none;
+  padding: 0.5em 4em;
+}
+
+/* / dropbox business banner section */
 
 /* debug */
 /* .debug .square{ */
