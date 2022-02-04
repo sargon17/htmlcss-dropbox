@@ -10,7 +10,7 @@
 
 * {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 }
 h1 {
   font-size: 68px;
@@ -20,7 +20,10 @@ h2 {
   margin: 0.1em 0;
 }
 h3 {
-  font-size: 30px;
+  font-size: 26px;
+}
+li {
+  font-size: 14px;
 }
 
 /* reusable component */
@@ -51,9 +54,11 @@ h3 {
   display: inline-block;
   vertical-align: middle;
 }
-.li-align{
-  width: 90%;
+.li-align {
+  width: 89%;
   vertical-align: top;
+  font-size: 14px;
+  font-weight: 500;
 }
 .float-right {
   float: right;
@@ -73,6 +78,7 @@ h3 {
 }
 .center-70 {
   width: 70vw;
+  max-width: 1000px;
   margin: auto;
 }
 .grey-borders {
@@ -84,11 +90,12 @@ h3 {
 .light-text {
   color: var(--dropbox-dark-grey);
   font-weight: 500;
+  font-size: 14px;
 }
-.blue{
+.blue {
   color: var(--dropbox-blue);
 }
-.inline-a:hover{
+.inline-a:hover {
   text-decoration: underline;
 }
 
@@ -109,11 +116,12 @@ header {
 }
 
 nav {
-  width: 78%;
+  width: 82%;
 }
 nav a {
   padding: 1.3em 0;
   margin: 0 1em;
+  font-weight: 500;
 }
 nav a:hover {
   border-bottom: 2px solid var(--dropbox-black);
@@ -168,18 +176,19 @@ nav a:hover {
 
 /* prices plans section */
 .prices-plans {
-  margin: 15vh 0 0 0;
+  margin: 15vw 0 0 0;
 }
 .radio-wrapper {
   margin: 4vh 0;
 }
 .pricing-tile {
-  width: 20vw;
-  height: 90vh;
+  width: 31%;
+  min-height: 900px;
+  height: 100vh;
 }
 .personal-team-plan p {
   text-align: center;
-  margin: 1em 0;
+  margin: 0.5em 0;
 }
 .title-prices {
   margin: 2vh 0;
@@ -187,23 +196,41 @@ nav a:hover {
 .title-prices p,
 .plans-details li,
 .features-wrapper li {
-  margin: 2vh 0;
+  margin: 1.8vh 0;
 }
 .pricing-tile .btn-wrapper {
   margin: 3vh 0;
 }
 .plan-btn {
   margin: 0;
-  padding: .75em 4em;
+  padding: 0.75em 2.28rem;
+  font-size: 14px;
 }
-.midle-tile-margin{
-  margin: 0 4.6%;
+.midle-tile-margin {
+  margin: 0 3%;
+}
+.bottom-pricing-tile {
+  margin: 8vh 0;
+  height: 30vh;
+}
+.tile-content {
+  width: 69%;
+  padding: 3em 0 3em 3em;
+}
+.tile-content h4 {
+  margin: 1em 0;
+}
+.tile-content p {
+  font-size: 14px;
+}
+.button-wrapper {
+  width: 30%;
+  margin: 3em 0 0 0;
 }
 /* prices plans section */
 
 /* debug */
-.debug .center-70,
-.debug .prices-plans {
+ {
   border: 3px dashed red;
   min-height: 50em;
 }
