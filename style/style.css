@@ -172,7 +172,7 @@ header {
 }
 
 nav {
-  width: 82%;
+  width: 79%;
 }
 nav a {
   padding: 1.3em 0;
@@ -263,7 +263,7 @@ nav a:hover {
   font-size: 14px;
 }
 .midle-tile-margin {
-  margin: 0 3.138%;
+  margin: 0 3%;
 }
 .bottom-pricing-tile {
   margin: 8vh 0;
