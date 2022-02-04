@@ -182,7 +182,7 @@ nav a:hover {
   margin: 4vh 0;
 }
 .pricing-tile {
-  width: 31%;
+  width: 31.0016%;
   min-height: 900px;
   height: 100vh;
 }
@@ -207,7 +207,7 @@ nav a:hover {
   font-size: 14px;
 }
 .midle-tile-margin {
-  margin: 0 3%;
+  margin: 0 3.138%;
 }
 .bottom-pricing-tile {
   margin: 8vh 0;
@@ -230,7 +230,7 @@ nav a:hover {
 /* prices plans section */
 
 /* debug */
- {
+ /* {
   border: 3px dashed red;
   min-height: 50em;
-}
+} */
