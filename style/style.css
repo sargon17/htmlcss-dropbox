@@ -7,16 +7,15 @@
   --dropbox-grey: #ebebec;
   --dropbox-dark-grey: #adadad;
 
-  --light-green: #A2D39B;
-  --bordeaux: #61082B;
-  --blue: #0093CE;
-  --red: #FF1C1C;
+  --light-green: #a2d39b;
+  --bordeaux: #61082b;
+  --blue: #0093ce;
+  --red: #ff1c1c;
 
-  --dark-red: #FF1C1C;
-  --dark-blue: #0D2481;
-  --yellow: #FFD830;
+  --dark-red: #ff1c1c;
+  --dark-blue: #0d2481;
+  --yellow: #ffd830;
 }
-
 
 /* general styling */
 * {
@@ -107,6 +106,12 @@ body img {
   max-width: 1000px;
   margin: auto;
 }
+.side-margins-5 {
+  margin: 0 5%;
+}
+.margin-top-5{
+  margin-top: 5em;
+}
 .grey-borders {
   border: 1px solid var(--dropbox-grey);
 }
@@ -125,34 +130,30 @@ body img {
   text-decoration: underline;
 }
 
-
-
-
-.light-green{
+.light-green {
   background: var(--light-green);
 }
-.bordeaux{
+.bordeaux {
   background: var(--bordeaux);
 }
-.blue-bg{
+.blue-bg {
   background: var(--blue);
 }
-.red{
+.red {
   background: var(--red);
 }
-.dark-red{
+.dark-red {
   background: var(--dark-red);
 }
-.light-blue{
+.light-blue {
   background: var(--dropbox-light-blue);
 }
-.dark-blue{
+.dark-blue {
   background: var(--dark-blue);
 }
-.yellow{
+.yellow {
   background: var(--yellow);
 }
-
 
 /* reusable styling */
 
@@ -304,7 +305,6 @@ nav a:hover {
 }
 /* / contact section */
 
-
 /* grid section */
 .grid-section {
   margin-top: 10vw;
@@ -321,47 +321,46 @@ nav a:hover {
 /* / grid section */
 
 /* Dropbox for teams - squares */
-.teams-section{
-  margin: 10em 0;
+.teams-section {
+  margin: 10em 0 0 0;
 }
-.teams-section h2{
-  width: 53%;
+.teams-section h2 {
+  width: 65%;
 }
 
 /* / Dropbox for teams - squares */
-.squares-container{
+.squares-container {
   margin-top: 3vh;
 }
-.squares-row{
+.squares-row {
   font-size: 0;
 }
-.square{
+.square {
   width: 15vw;
   height: 15vw;
   position: relative;
 }
-.square img{
+.square img {
   filter: invert(1);
   width: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.team-content-box{
-  width: 40vw;
+.team-content-box {
+  width: 39vw;
   height: 30vw;
   background: var(--dropbox-grey);
   font-size: 14px;
 }
-.small-logo{
+.small-logo {
   width: 10vw;
+  margin-top: 5%;
 }
-
-
 
 /* debug */
 /* .debug .square{ */
-  /* border: 1px dashed red; */
-  /* min-height: 50em; */
+/* border: 1px dashed red; */
+/* min-height: 50em; */
 /* } */
