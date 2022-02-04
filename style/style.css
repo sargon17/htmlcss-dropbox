@@ -37,6 +37,15 @@ li {
   color: var(--dropbox-white);
   background-color: var(--dropbox-blue-hover);
 }
+.white-btn{
+  background-color: var(--dropbox-white);
+  color: var(--dropbox-black);
+  border: 1px solid var(--dropbox-black);
+}
+.white-btn:hover{
+  background-color: var(--dropbox-grey);
+  color: var(--dropbox-black);
+}
 .strange-line {
   height: 1px;
   width: 20%;
@@ -228,6 +237,30 @@ nav a:hover {
   margin: 3em 0 0 0;
 }
 /* prices plans section */
+
+/* contact section */
+.contact-img-wrapper{
+  width: 59%;
+}
+.contact-img-wrapper img{
+  width: 100%;
+  object-fit: contain;
+}
+/* / contact section */
+.contact-content-wrapper{
+  vertical-align: top;
+  width: 39%;
+  padding-left: 4%;
+}
+.contact-content-wrapper h3{
+  margin: 1em 0;
+}
+.contact-content-wrapper p{
+  margin: 4em 0;
+}
+.contact-content-wrapper a{
+  margin: 0;
+}
 
 /* debug */
  /* {
