@@ -8,6 +8,7 @@
   --dropbox-dark-grey: #adadad;
 }
 
+/* general styling */
 * {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -25,6 +26,11 @@ h3 {
 li {
   font-size: 14px;
 }
+body img{
+  width: 100%;
+  object-fit: contain;
+}
+/* general styling */
 
 /* reusable component */
 .a-btn {
@@ -242,11 +248,6 @@ nav a:hover {
 .contact-img-wrapper{
   width: 59%;
 }
-.contact-img-wrapper img{
-  width: 100%;
-  object-fit: contain;
-}
-/* / contact section */
 .contact-content-wrapper{
   vertical-align: top;
   width: 39%;
@@ -259,8 +260,26 @@ nav a:hover {
   margin: 4em 0;
 }
 .contact-content-wrapper a{
-  margin: 0;
+  margin: 4em 0;
 }
+/* / contact section */
+.grid-section{
+  margin-top: 10vw;
+}
+.row{
+  margin: 4em 0;
+}
+.card{
+  width: 31.0016%;
+}
+.card p{
+  margin: 2em 0;
+}
+
+/* grid section */
+
+
+/* / grid section */
 
 /* debug */
  /* {
