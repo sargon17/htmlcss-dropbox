@@ -40,20 +40,7 @@ h3 {
   background: var(--dropbox-dark-grey);
   margin: 3vh 0;
 }
-.pencil {
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-.pencil::before {
-  /* font-family: "Font Awesome 5 Free";
-  content: "\f303"; */
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f007";
-}
+
 /* reusable component */
 
 /* reusable styling */
@@ -63,6 +50,10 @@ h3 {
 .inline-block {
   display: inline-block;
   vertical-align: middle;
+}
+.li-align{
+  width: 90%;
+  vertical-align: top;
 }
 .float-right {
   float: right;
@@ -94,6 +85,13 @@ h3 {
   color: var(--dropbox-dark-grey);
   font-weight: 500;
 }
+.blue{
+  color: var(--dropbox-blue);
+}
+.inline-a:hover{
+  text-decoration: underline;
+}
+
 /* reusable styling */
 
 /* header */
@@ -187,7 +185,9 @@ nav a:hover {
 .title-prices {
   margin: 2vh 0;
 }
-.title-prices p {
+.title-prices p,
+.plans-details li,
+.features-wrapper li {
   margin: 2vh 0;
 }
 .pricing-tile .btn-wrapper {
@@ -195,7 +195,7 @@ nav a:hover {
 }
 .plan-btn {
   margin: 0;
-  padding: 1em 4em;
+  padding: .75em 4em;
 }
 /* prices plans section */
 
