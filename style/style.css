@@ -6,12 +6,23 @@
   --dropbox-black: #000000;
   --dropbox-grey: #ebebec;
   --dropbox-dark-grey: #adadad;
+
+  --light-green: #A2D39B;
+  --bordeaux: #61082B;
+  --blue: #0093CE;
+  --red: #FF1C1C;
+
+  --dark-red: #FF1C1C;
+  --dark-blue: #0D2481;
+  --yellow: #FFD830;
 }
+
 
 /* general styling */
 * {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
+  scroll-behavior: smooth;
 }
 h1 {
   font-size: 68px;
@@ -26,7 +37,7 @@ h3 {
 li {
   font-size: 14px;
 }
-body img{
+body img {
   width: 100%;
   object-fit: contain;
 }
@@ -43,12 +54,12 @@ body img{
   color: var(--dropbox-white);
   background-color: var(--dropbox-blue-hover);
 }
-.white-btn{
+.white-btn {
   background-color: var(--dropbox-white);
   color: var(--dropbox-black);
   border: 1px solid var(--dropbox-black);
 }
-.white-btn:hover{
+.white-btn:hover {
   background-color: var(--dropbox-grey);
   color: var(--dropbox-black);
 }
@@ -113,6 +124,35 @@ body img{
 .inline-a:hover {
   text-decoration: underline;
 }
+
+
+
+
+.light-green{
+  background: var(--light-green);
+}
+.bordeaux{
+  background: var(--bordeaux);
+}
+.blue-bg{
+  background: var(--blue);
+}
+.red{
+  background: var(--red);
+}
+.dark-red{
+  background: var(--dark-red);
+}
+.light-blue{
+  background: var(--dropbox-light-blue);
+}
+.dark-blue{
+  background: var(--dark-blue);
+}
+.yellow{
+  background: var(--yellow);
+}
+
 
 /* reusable styling */
 
@@ -245,44 +285,83 @@ nav a:hover {
 /* prices plans section */
 
 /* contact section */
-.contact-img-wrapper{
+.contact-img-wrapper {
   width: 59%;
 }
-.contact-content-wrapper{
+.contact-content-wrapper {
   vertical-align: top;
   width: 39%;
   padding-left: 4%;
 }
-.contact-content-wrapper h3{
+.contact-content-wrapper h3 {
   margin: 1em 0;
 }
-.contact-content-wrapper p{
+.contact-content-wrapper p {
   margin: 4em 0;
 }
-.contact-content-wrapper a{
+.contact-content-wrapper a {
   margin: 4em 0;
 }
 /* / contact section */
-.grid-section{
-  margin-top: 10vw;
-}
-.row{
-  margin: 4em 0;
-}
-.card{
-  width: 31.0016%;
-}
-.card p{
-  margin: 2em 0;
-}
+
 
 /* grid section */
-
-
+.grid-section {
+  margin-top: 10vw;
+}
+.row {
+  margin: 4em 0;
+}
+.card {
+  width: 31.0016%;
+}
+.card p {
+  margin: 2em 0;
+}
 /* / grid section */
 
+/* Dropbox for teams - squares */
+.teams-section{
+  margin: 10em 0;
+}
+.teams-section h2{
+  width: 53%;
+}
+
+/* / Dropbox for teams - squares */
+.squares-container{
+  margin-top: 3vh;
+}
+.squares-row{
+  font-size: 0;
+}
+.square{
+  width: 15vw;
+  height: 15vw;
+  position: relative;
+}
+.square img{
+  filter: invert(1);
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.team-content-box{
+  width: 40vw;
+  height: 30vw;
+  background: var(--dropbox-grey);
+  font-size: 14px;
+}
+.small-logo{
+  width: 10vw;
+}
+
+
+
 /* debug */
- /* {
-  border: 3px dashed red;
-  min-height: 50em;
-} */
+/* .debug .square{ */
+  /* border: 1px dashed red; */
+  /* min-height: 50em; */
+/* } */
