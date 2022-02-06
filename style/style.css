@@ -373,6 +373,32 @@ nav a:hover {
   border: none;
   padding: 0.5em 4em;
 }
+/* / dropbox business banner section */
+
+/* Q&A section */
+.questions-section{
+  padding: 8vh 0;
+}
+.question{
+  margin: 1em 0;
+  padding: 2em 0;
+}
+i{
+  margin: .2em 1.8em;
+}
+
+
+.answer{
+  display: none;
+  padding:1em;
+}
+.question:hover{
+  padding: 0;
+}
+.question:hover .answer{
+  display: block;
+}
+/* Q&A section */
 
 /* footer */
 footer {
@@ -385,8 +411,6 @@ footer {
 .footer-nav-list:last-of-type{
   margin: 0;
 }
-
-
 footer h3,
 footer li,
 footer a{
@@ -411,9 +435,9 @@ footer .lang-selector-container:hover a{
 }
 /* footer */
 
-/* / dropbox business banner section */
+/* 
+.debug .questions-section .center-70 {
 
-/* .debug footer .center-80 {
   border: 1px dashed red;
   min-height: 50em;
 } */
