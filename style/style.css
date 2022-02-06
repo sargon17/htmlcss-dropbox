@@ -54,6 +54,8 @@ body img {
 .a-btn:hover {
   color: var(--dropbox-white);
   background-color: var(--dropbox-blue-hover);
+}
+header .a-btn:hover{
   border-bottom: none;
 }
 .white-btn {
