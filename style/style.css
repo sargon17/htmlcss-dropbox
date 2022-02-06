@@ -79,7 +79,9 @@ body img {
   vertical-align: middle;
 }
 .li-align {
-  width: 89%;
+  /* ! strange width style */
+  /* todo check is notthing is broken */
+  /* width: 89%; */
   vertical-align: top;
   font-size: 14px;
   font-weight: 500;
@@ -108,7 +110,7 @@ body img {
 .side-margins-5 {
   margin: 0 5%;
 }
-.margin-top-5{
+.margin-top-5 {
   margin-top: 5em;
 }
 .grey-borders {
@@ -355,27 +357,26 @@ nav a:hover {
 /* / Dropbox for teams - squares */
 
 /* dropbox business banner section */
-.business-banner{
+.business-banner {
   background-color: var(--dropbox-light-blue);
   padding: 10vh 0;
 }
-.business-banner-wrapper h2{
+.business-banner-wrapper h2 {
   width: 59%;
   color: var(--bordeaux);
 }
-.business-button-wrapper{
+.business-button-wrapper {
   height: 5em;
   margin: 1em;
 }
-.business-button-wrapper a{
+.business-button-wrapper a {
   border: none;
   padding: 0.5em 4em;
 }
 
 /* / dropbox business banner section */
 
-/* debug */
-/* .debug .square{ */
-/* border: 1px dashed red; */
-/* min-height: 50em; */
-/* } */
+.debug footer .center-80 {
+  border: 1px dashed red;
+  min-height: 50em;
+}
