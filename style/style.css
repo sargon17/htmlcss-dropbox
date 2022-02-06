@@ -80,7 +80,7 @@ body img {
 }
 .li-align {
   /* ! strange width style */
-  /* todo check is notthing is broken */
+  /* todo check that notthing is broken */
   /* width: 89%; */
   vertical-align: top;
   font-size: 14px;
@@ -373,6 +373,37 @@ nav a:hover {
   border: none;
   padding: 0.5em 4em;
 }
+
+/* footer */
+footer {
+  background: var(--dropbox-black);
+}
+
+.footer-nav{
+  margin: 8vh 0;
+}
+.footer-nav-list{
+  margin-right: 8%;
+}
+.footer-nav-list:last-of-type{
+  margin: 0;
+}
+
+
+footer h3,
+footer li,
+footer a{
+  color: var(--dropbox-white);
+  margin: 0.5em 0;
+}
+footer a:hover{
+  color: var(--dropbox-white);
+  text-decoration: underline;
+}
+footer .strange-line{
+  width: 8%;
+}
+/* footer */
 
 /* / dropbox business banner section */
 
