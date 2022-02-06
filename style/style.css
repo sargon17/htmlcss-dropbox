@@ -377,10 +377,7 @@ nav a:hover {
 /* footer */
 footer {
   background: var(--dropbox-black);
-}
-
-.footer-nav{
-  margin: 8vh 0;
+  padding: 8vh 0;
 }
 .footer-nav-list{
   margin-right: 8%;
@@ -396,18 +393,27 @@ footer a{
   color: var(--dropbox-white);
   margin: 0.5em 0;
 }
-footer a:hover{
-  color: var(--dropbox-white);
-  text-decoration: underline;
-}
 footer .strange-line{
   width: 8%;
+}
+.lang-selector-container{
+  margin: 0.7em 0;
+}
+.lang-selector-container i,
+.lang-selector-container a{
+  color: var(--dropbox-dark-grey);
+}
+footer a:hover,
+footer .lang-selector-container:hover i,
+footer .lang-selector-container:hover a{
+  color: var(--dropbox-white);
+  text-decoration: underline;
 }
 /* footer */
 
 /* / dropbox business banner section */
 
-.debug footer .center-80 {
+/* .debug footer .center-80 {
   border: 1px dashed red;
   min-height: 50em;
-}
+} */
